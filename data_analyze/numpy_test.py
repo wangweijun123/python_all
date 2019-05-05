@@ -1,5 +1,8 @@
 import numpy as np 
 import time
+
+# 创建ndarray的两种方式
+
 # 创建一个随机得列表
 x = np.random.random(100000000)
 # start = time.time()
@@ -10,6 +13,7 @@ start = time.time()
 np.mean(x)
 print(time.time() - start)
 
+
 x = np.arange(2,34,2).reshape(4,4)
 print(x)
 print(x.shape)
@@ -17,9 +21,9 @@ print(x.shape)
 # 一维素组
 xx = np.array([1,2,3,3,2])
 print(xx)
-print(xx.shape)
+print(xx.shape)#几行几列
 print(type(xx))
-print(xx.dtype)
+print(xx.dtype)#item 元素的类型
 
 x = np.array(['hello', 'world'])
 print("x=",x)
