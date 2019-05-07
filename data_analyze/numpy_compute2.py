@@ -136,13 +136,5 @@ print()
 print("X*Y = \n", (X*Y))
 
 
-#  NumPy 并创建一个秩为 2 的 ndarray，其中包含 0 到 5,000（含）之间的随机整数，共有 1000 行和 20 列。
-
-
-print()
-X = np.random.randint(low=0, high=5000, size=(1000, 20))
-print(X)
-print(X.size)
-print(X.shape)
 
 
