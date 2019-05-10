@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="251209a4-701a-4ce8-8cd1-149eb35a0355" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/handle_nan.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pandas_dataframes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pandas_handle_nan.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handle_nan.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,25 +14,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pandas_dataframes.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pandas_handle_nan.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5368">
-              <caret line="244" column="20" lean-forward="true" selection-start-line="244" selection-start-column="20" selection-end-line="244" selection-end-column="20" />
+            <state relative-caret-position="286">
+              <caret line="13" column="69" selection-start-line="13" selection-start-column="69" selection-end-line="13" selection-end-column="69" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/handle_nan.py">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/pandas/core/config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="223">
+              <caret line="367" selection-start-line="367" selection-end-line="367" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/pandas/core/frame.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="249">
+              <caret line="4445" column="41" lean-forward="true" selection-start-line="4445" selection-start-column="41" selection-end-line="4445" selection-end-column="41" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/pandas/core/generic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="772" column="18" lean-forward="true" selection-start-line="772" selection-start-column="18" selection-end-line="772" selection-end-column="18" />
+            <state relative-caret-position="126">
+              <caret line="9984" column="40" selection-start-line="9984" selection-start-column="18" selection-end-line="9984" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -90,6 +106,7 @@
         <option value="$PROJECT_DIR$/pandas_compute.py" />
         <option value="$PROJECT_DIR$/pandas_dataframes.py" />
         <option value="$PROJECT_DIR$/handle_nan.py" />
+        <option value="$PROJECT_DIR$/pandas_handle_nan.py" />
       </list>
     </option>
   </component>
@@ -142,8 +159,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.pandas_dataframes">
-    <configuration name="ave_std_and_data_cut" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.handle_nan">
+    <configuration name="handle_nan" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="data_analyze" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -156,7 +173,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ave_std_and_data_cut.py" />
+      <option name="SCRIPT_NAME" value="E:\study\ai\python\python_all\data_analyze\pandas_handle_nan.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -255,11 +272,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.handle_nan" />
         <item itemvalue="Python.pandas_dataframes" />
         <item itemvalue="Python.pandas_compute" />
         <item itemvalue="Python.pandas_test" />
         <item itemvalue="Python.numpy_compute" />
-        <item itemvalue="Python.ave_std_and_data_cut" />
       </list>
     </recent_temporary>
   </component>
@@ -276,12 +293,12 @@
       <workItem from="1557142953127" duration="13519000" />
       <workItem from="1557222301622" duration="10057000" />
       <workItem from="1557235384301" duration="8197000" />
-      <workItem from="1557477286769" duration="11540000" />
+      <workItem from="1557477286769" duration="18575000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43313000" />
+    <option name="totallyTimeSpent" value="50348000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -291,8 +308,8 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2513843" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39977852" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5326689" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.42192692" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -300,7 +317,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" auto_hide="true" id="Terminal" order="11" visible="true" weight="0.52934664" />
+      <window_info anchor="bottom" auto_hide="true" id="Terminal" order="11" weight="0.1683278" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32890365" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -314,6 +331,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/data_analyze$ndarray_cut.coverage" NAME="ndarray_cut Coverage Results" MODIFIED="1557230592746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/data_analyze$handle_nan.coverage" NAME="handle_nan Coverage Results" MODIFIED="1557498064009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/data_analyze$numpy_compute2.coverage" NAME="numpy_compute2 Coverage Results" MODIFIED="1557230600151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/data_analyze$pandas_test.coverage" NAME="pandas_test Coverage Results" MODIFIED="1557239213478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/data_analyze$pandas_dataframes.coverage" NAME="pandas_dataframes Coverage Results" MODIFIED="1557491183709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -452,29 +470,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/pandas/core/generic.py">
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/-1516301981/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="772" column="18" lean-forward="true" selection-start-line="772" selection-start-column="18" selection-end-line="772" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/pandas/core/frame.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="3952" column="59" lean-forward="true" selection-start-line="3952" selection-start-column="59" selection-end-line="3952" selection-end-column="59" />
+        <state relative-caret-position="251">
+          <caret line="5280" column="8" selection-start-line="5280" selection-start-column="8" selection-end-line="5280" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pandas_dataframes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5368">
-          <caret line="244" column="20" lean-forward="true" selection-start-line="244" selection-start-column="20" selection-end-line="244" selection-end-column="20" />
+        <state relative-caret-position="88">
+          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/handle_nan.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/pandas/core/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="367" selection-start-line="367" selection-end-line="367" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/pandas/core/frame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="4445" column="41" lean-forward="true" selection-start-line="4445" selection-start-column="41" selection-end-line="4445" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/pandas/core/generic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9984" column="40" selection-start-line="9984" selection-start-column="18" selection-end-line="9984" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pandas_handle_nan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="69" selection-start-line="13" selection-start-column="69" selection-end-line="13" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
