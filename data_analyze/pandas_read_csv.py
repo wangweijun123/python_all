@@ -120,7 +120,6 @@ def exercise():
     print("隔 150 天的平均股价", rollingMean)
 
 
-
     # We plot the Google stock data
     plt.plot(all_stocks['Google'])
 
